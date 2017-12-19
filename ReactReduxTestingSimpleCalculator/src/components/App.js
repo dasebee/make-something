@@ -5,8 +5,8 @@ import Buttons from './buttons';
 export default class App extends React.Component{
   render() {
     return (
-      <div>
-        <h1> App.js </h1>
+      <div className="app-container">
+        <h1>Simple Calculator</h1>
         <Display />
         <Buttons />
       </div>

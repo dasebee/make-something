@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
+import "babel-polyfill";
 
 import calculatorReducers from './reducers/calculatorReducers';
 import App from './components/App';

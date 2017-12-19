@@ -1,8 +1,7 @@
 import * as actions from '../actions/calculatorActions';
 
 const initialState = {
-  result: -1,
-  excuteArr: []
+  result: 0
 }
 
 export default function(state=initialState,action) {
