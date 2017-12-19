@@ -4,16 +4,21 @@ const propTypes = {
 };
 const defaultProps = {
 };
-class buttons extends Component {
+export class Buttons extends Component {
     constructor(props) {
         super(props);
     }
     render() {
         return(
-            <div>buttons</div>
+            <div>Buttons</div>
         );
     }
 }
-buttons.propTypes = propTypes;
-buttons.defaultProps = defaultProps;
-export default buttons;
+Buttons.propTypes = propTypes;
+Buttons.defaultProps = defaultProps;
+
+const mapStateToProps = (state) => {
+    return {
+    }
+}
+export default connect(mapStateToProps)(Buttons);

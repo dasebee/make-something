@@ -15,4 +15,5 @@
 
   https://medium.com/netscape/testing-a-react-redux-app-using-jest-and-enzyme-b349324803a9
 
++ [작업 정리](./note/readme.md)
   
