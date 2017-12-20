@@ -11,9 +11,20 @@
 
   React, Redux, Jest, Enzyme
 
-+ 참고
++ 실행
+
+  ```bash
+  $ git clone https://github.com/dasebee/make-something/tree/master/ReactReduxTestingSimpleCalculator
+  $ cd ./ReactReduxTestingSimpleCalculator
+  $ npm install
+  $ npm test 
+  $ npm start 
+  ```
+
++ 참고글
 
   https://medium.com/netscape/testing-a-react-redux-app-using-jest-and-enzyme-b349324803a9
 
-+ [작업 정리](./note/readme.md)
-  
++ [작업 정리](./note/)
+
+

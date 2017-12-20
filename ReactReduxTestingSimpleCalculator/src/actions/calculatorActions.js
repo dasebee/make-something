@@ -1,11 +1,9 @@
-export const add = () => {
+export const INPUT_CALCULATION_VALUE = "INPUT_CALCULATION_VALUE";
+
+export const inputCalculationValue = (value) => {
   return {
-      type: "ADD"
+      type: INPUT_CALCULATION_VALUE,
+      value
   }
 }
 
-export const subtract = () => {
-  return {
-      type: "SUBTRACT"
-  }
-}
